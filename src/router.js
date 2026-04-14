@@ -8,6 +8,8 @@ import CirclePage from './pages/CirclePage.vue'
 import DailyInsightPage from './pages/DailyInsightPage.vue'
 import FlowCardPage from './pages/FlowCardPage.vue'
 import FamilyCarePage from './pages/FamilyCarePage.vue'
+import MagicRingPage from './pages/MagicRingPage.vue'
+import EmptyPage from './pages/EmptyPage.vue'
 
 const routes = [
   {
@@ -45,6 +47,14 @@ const routes = [
   {
     path: '/family-care',
     component: FamilyCarePage,
+  },
+  {
+    path: '/magic-ring',
+    component: MagicRingPage,
+  },
+  {
+    path: '/empty-page',
+    component: EmptyPage,
   },
 ]
 

@@ -1,5 +1,6 @@
 :root {
-  --green-bg: #01a939;
+  --green-bg: #000000;
+  /* --green-bg: #01a939; */
   --user-blue: #4b82ff;
   --assistant-blue: #dbe9ff;
   --text-dark: #0f1f3d;
