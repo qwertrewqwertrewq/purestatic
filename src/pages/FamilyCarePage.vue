@@ -90,7 +90,7 @@ onMounted(() => {
 <template>
   <main class="care-page">
     <section class="care-panel">
-      <header class="care-header">亲友关怀</header>
+      <header class="care-header">亲友关爱共享</header>
 
       <div class="cycle-row row-divider">
         <div class="left-block">

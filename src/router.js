@@ -10,6 +10,8 @@ import FlowCardPage from './pages/FlowCardPage.vue'
 import FamilyCarePage from './pages/FamilyCarePage.vue'
 import MagicRingPage from './pages/MagicRingPage.vue'
 import EmptyPage from './pages/EmptyPage.vue'
+import SleepPage from './pages/SleepPage.vue'
+import StepCardPage from './pages/StepCardPage.vue'
 
 const routes = [
   {
@@ -55,6 +57,14 @@ const routes = [
   {
     path: '/empty-page',
     component: EmptyPage,
+  },
+  {
+    path: '/sleep-page',
+    component: SleepPage,
+  },
+  {
+    path: '/step-card',
+    component: StepCardPage,
   },
 ]
 

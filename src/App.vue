@@ -12,6 +12,8 @@
       <RouterLink to="/family-care" class="nav-link" active-class="is-active">页面9 亲友关怀</RouterLink>
       <RouterLink to="/magic-ring" class="nav-link" active-class="is-active">页面10 灵犀魔戒</RouterLink>
       <RouterLink to="/empty-page" class="nav-link" active-class="is-active">页面11 空页面</RouterLink>
+      <RouterLink to="/sleep-page" class="nav-link" active-class="is-active">页面12 睡眠</RouterLink>
+      <RouterLink to="/step-card" class="nav-link" active-class="is-active">页面13 步数</RouterLink>
     </nav>
 
     <RouterView />
