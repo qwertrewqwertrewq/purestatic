@@ -14,7 +14,7 @@ const stressData = [
 const heartData = [
   34, 34, 34, 68, 34, 34, 33, 33, 33, 33, 32, 34, 31, 33, 35, 32, 33, 31, 34, 32,
   36, 42, 44, 40, 48, 52, 41, 46, 42, 47, 48, 43, 57, 50, 54, 47, 48, 49, 46, 52,
-  45, 46, 47, 58, 34, 49, 60, 49, 34, 46, 34, 42, 63,
+  45, 46, 47, 58, 34, 49, 60, 49, 34, 46, 34, 58, 68,
 ]
 
 const progress = ref(0)
@@ -155,7 +155,7 @@ onBeforeUnmount(() => {
         </header>
 
         <div class="value-row">
-          <strong style="color: white;">145</strong>
+          <strong style="color: white;">98</strong>
           <span class="desc">次/分</span>
         </div>
 
